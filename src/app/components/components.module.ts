@@ -6,16 +6,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { JwBootstrapSwitchNg2Module } from '@servoy/jw-bootstrap-switch-ng2';
 import { NouisliderModule } from 'ng2-nouislider';
 
-import { BasicelementsComponent } from './basicelements/basicelements.component';
 import { ComponentsComponent } from './components.component';
-import { NgbdModalBasic } from './modal/modal.component';
-import { NavigationComponent } from './navigation/navigation.component';
-import { NotificationComponent } from './notification/notification.component';
-import { NucleoiconsComponent } from './nucleoicons/nucleoicons.component';
+import { FotosComponent } from './fotos/fotos.component';
 import { RedesComponent } from './redes/redes.component';
 import { ServiciosComponent } from './servicios/servicios.component';
-import { TypographyComponent } from './typography/typography.component';
-import { FotosComponent } from './fotos/fotos.component';
 
 @NgModule({
     imports: [
@@ -28,12 +22,6 @@ import { FotosComponent } from './fotos/fotos.component';
     ],
     declarations: [
         ComponentsComponent,
-        BasicelementsComponent,
-        NavigationComponent,
-        TypographyComponent,
-        NucleoiconsComponent,
-        NotificationComponent,
-        NgbdModalBasic,
         ServiciosComponent,
         RedesComponent,
         FotosComponent

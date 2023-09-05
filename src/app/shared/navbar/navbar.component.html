@@ -1,14 +1,15 @@
 <nav class="navbar navbar-expand-lg fixed-top">
   <div class="container">
     <div class="navbar-translate">
-      <img src="assets/img/logo-titulo.png" width="30%" height="15%">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#example-navbar-primary"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <img src="assets/img/logo-titulo.png" width="40%" height="20%">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+        (click)="sidebarToggle()">
+        <i class="fa fa-bars"></i>
       </button>
     </div>
     <div class="collapse navbar-collapse" id="example-navbar-primary">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="#servicios">
             <i class="now-ui-icons shopping_shop"></i>
             <p>Servicios</p>
