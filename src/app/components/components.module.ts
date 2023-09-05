@@ -12,7 +12,10 @@ import { NgbdModalBasic } from './modal/modal.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { NotificationComponent } from './notification/notification.component';
 import { NucleoiconsComponent } from './nucleoicons/nucleoicons.component';
+import { RedesComponent } from './redes/redes.component';
+import { ServiciosComponent } from './servicios/servicios.component';
 import { TypographyComponent } from './typography/typography.component';
+import { FotosComponent } from './fotos/fotos.component';
 
 @NgModule({
     imports: [
@@ -30,7 +33,10 @@ import { TypographyComponent } from './typography/typography.component';
         TypographyComponent,
         NucleoiconsComponent,
         NotificationComponent,
-        NgbdModalBasic
+        NgbdModalBasic,
+        ServiciosComponent,
+        RedesComponent,
+        FotosComponent
     ],
     exports: [ComponentsComponent]
 })
