@@ -1,42 +1,16 @@
 <div class="wrapper">
     <div class="page-header clear-filter">
-        <div class="page-header-image rellax-header" data-rellax-speed="-7"
-            style="background-image: url('assets/img/header.jpg');">
+        <div class="page-header-image" style="background-image: url('assets/img/header2.jpg');">
         </div>
         <div class="container">
             <div class="content-center brand">
                 <img src="assets/img/now-logo.png" alt="" width="400" height="300">
-                <h3 style="color: black; font-weight: bold;">Noe es la mejor</h3>
+                <h3 style="color: black; font-weight: bold;">Servicios de cosmetología</h3>
             </div>
-            <h6 class="category category-absolute">Designed by
-                <a href="https://invisionapp.com/" target="_blank">
-                    <img src="assets/img/invision-white-slim.png" class="invision-logo" />
-                </a>. Coded by
-                <a href="https://www.creative-tim.com" target="_blank">
-                    <img src="assets/img/creative-tim-white-slim2.png" class="creative-tim-logo" />
-                </a>.
-            </h6>
         </div>
     </div>
 
     <div class="main">
-        <div class="section section-images">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="hero-images-container">
-                            <img src="assets/img/hero-image-1.png" alt="">
-                        </div>
-                        <div class="hero-images-container-1">
-                            <img src="assets/img/hero-image-2.png" alt="">
-                        </div>
-                        <div class="hero-images-container-2">
-                            <img src="assets/img/hero-image-3.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <app-basicelements></app-basicelements>
         <app-navigation></app-navigation>
         <div class="section section-tabs">
@@ -160,6 +134,7 @@
                                             </ng-template>
                                         </li>
                                     </ul>
+                                    <div [ngbNavOutlet]="nav" class="mt-2"></div>
                                 </div>
                             </div>
                         </div>
@@ -214,6 +189,7 @@
                                 </ng-template>
                             </li>
                         </ul>
+                        <div [ngbNavOutlet]="nav" class="mt-2"></div>
                     </div>
                     <div class="col-md-6">
                         <h4>Pagination</h4>
@@ -314,8 +290,6 @@
                         <br>
                         <br>
                     </div>
-                    <!-- </div>
-            </div> -->
                 </div>
 
                 <div class="section" id="carousel">
@@ -458,71 +432,11 @@
                 </div>
             </div>
         </div>
-        <div class="section section-examples" data-background-color="black">
-            <div class="space-50"></div>
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col">
-                        <a [routerLink]="['/examples/landing']">
-                            <img src="assets/img/landing.jpg" alt="Image" class="img-raised">
-                        </a>
-                        <a [routerLink]="['/examples/landing']" class="btn btn-simple btn-primary btn-round">View
-                            Landing Page</a>
-                    </div>
-                    <div class="col">
-                        <a [routerLink]="['/examples/profile']">
-                            <img src="assets/img/profile.jpg" alt="Image" class="img-raised">
-                        </a>
-                        <a [routerLink]="['/examples/profile']" class="btn btn-simple btn-primary btn-round">View
-                            Profile Page</a>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="section section-download" id="#download-section" data-background-color="black">
             <div class="container">
-                <div class="row justify-content-md-center">
-                    <div class="text-center col-md-12 col-lg-8">
-                        <h3 class="title">Do you love this Bootstrap 4 UI Kit?</h3>
-                        <h5 class="description">Cause if you do, it can be yours for FREE. Hit the button below to
-                            navigate to Creative Tim or Invision where you can find the kit in HTML or Sketch/PSD
-                            format. Start a new project or give an old Bootstrap project a new look!</h5>
-                    </div>
-                    <div class="text-center col-md-12 col-lg-8">
-                        <a href="https://www.creative-tim.com/product/now-ui-kit-angular"
-                            class="btn btn-primary btn-lg btn-round" role="button">
-                            Download Angular
-                        </a>
-                        <a href="https://www.invisionapp.com/now" target="_blank"
-                            class="btn btn-primary btn-lg btn-simple btn-round" role="button">
-                            Download PSD/Sketch
-                        </a>
-                    </div>
-                </div>
-                <br>
-                <br>
-                <br>
-                <div class="row text-center mt-5">
-                    <div class="col-md-8 ml-auto mr-auto">
-                        <h2>Want more?</h2>
-                        <h5 class="description">We've just launched
-                            <a href="https://timcreative.github.io/now-ui-kit-pro-angular/presentation"
-                                target="_blank">Now UI Kit PRO Angular</a>. It has a huge number of components, sections
-                            and example pages. Start Your Development With A Badass Bootstrap 4 UI Kit.
-                        </h5>
-                    </div>
-                    <div class="col-md-12">
-                        <a href="https://timcreative.github.io/now-ui-kit-pro-angular/presentation"
-                            class="btn btn-neutral btn-round btn-lg" target="_blank">
-                            <i class="now-ui-icons arrows-1_share-66"></i> Upgrade to PRO
-                        </a>
-                    </div>
-                </div>
-                <br>
-                <br>
                 <div class="row justify-content-md-center sharing-area text-center">
                     <div class="text-center col-md-12 col-lg-8">
-                        <h3>Thank you for supporting us!</h3>
+                        <h3>Contáctenos</h3>
                     </div>
                     <div class="text-center col-md-12 col-lg-8">
                         <a target="_blank" href="https://www.twitter.com/creativetim"
@@ -550,38 +464,4 @@
             </div>
         </div>
     </div>
-    <footer class="footer" data-background-color="black">
-        <div class="container">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="https://www.creative-tim.com">
-                            Creative Tim
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.creative-tim.com/about-us">
-                            About Us
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://blog.creative-tim.com">
-                            Blog
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md">
-                            MIT License
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="copyright">
-                &copy;
-                {{data | date: 'yyyy'}}, Designed by
-                <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by
-                <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
-            </div>
-        </div>
-    </footer>
 </div>
