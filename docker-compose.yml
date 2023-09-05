@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  relucis-front:
+    container_name: relucis-front
+    hostname: relucis-front
+    image: docker.io/brianwolf94/relucis-front:0.1.0
+    restart: always
+    expose:
+      - 8080
+    networks:
+      - docker-net
+
+networks:
+  docker-net:
+    name: docker-net
+    external: true
