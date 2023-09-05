@@ -49,8 +49,8 @@
                         <div class="card">
                             <div class="nav-tabs-navigation">
                                 <div class="nav-tabs-wrapper">
-                                    <ngb-tabset [justify]="'center'" class="text-center">
-                                        <ngb-tab>
+                                    <ul ngbNav #nav="ngbNav" class="nav-tabs">
+                                        <li ngbNavItem [ngbNavItem]="1">
                                             <ng-template ngbTabTitle>
                                                 <i class="now-ui-icons objects_umbrella-13"></i> Home
                                             </ng-template>
@@ -62,8 +62,8 @@
                                                     company that ends up being worth billions of dollars, because I got
                                                     the answers. I understand culture. I am the nucleus.</p>
                                             </ng-template>
-                                        </ngb-tab>
-                                        <ngb-tab>
+                                        </li>
+                                        <li ngbNavItem [ngbNavItem]="2">
                                             <ng-template ngbTabTitle>
                                                 <i class="now-ui-icons shopping_cart-simple"></i> Profile
                                             </ng-template>
@@ -76,8 +76,8 @@
                                                     possibilities, to show people, this is the level that things could
                                                     be at. </p>
                                             </ng-template>
-                                        </ngb-tab>
-                                        <ngb-tab>
+                                        </li>
+                                        <li ngbNavItem [ngbNavItem]="3">
                                             <ng-template ngbTabTitle>
                                                 <i class="now-ui-icons shopping_shop"></i> Messages
                                             </ng-template>
@@ -89,8 +89,8 @@
                                                     company that ends up being worth billions of dollars, because I got
                                                     the answers. I understand culture. I am the nucleus.</p>
                                             </ng-template>
-                                        </ngb-tab>
-                                        <ngb-tab>
+                                        </li>
+                                        <li ngbNavItem [ngbNavItem]="4">
                                             <ng-template ngbTabTitle>
                                                 <i class="now-ui-icons ui-2_settings-90"></i> Settings
                                             </ng-template>
@@ -103,8 +103,9 @@
                                                     be at."
                                                 </p>
                                             </ng-template>
-                                        </ngb-tab>
-                                    </ngb-tabset>
+                                        </li>
+                                    </ul>
+                                    <div [ngbNavOutlet]="nav" class="mt-2"></div>
                                 </div>
                             </div>
                         </div>
@@ -115,8 +116,8 @@
                         <div class="card">
                             <div class="nav-tabs-navigation" data-tabs-color="orange">
                                 <div class="nav-tabs-wrapper">
-                                    <ngb-tabset [justify]="'center'" class="text-center">
-                                        <ngb-tab title="Home">
+                                    <ul ngbNav #nav="ngbNav" class="nav-tabs">
+                                        <li ngbNavItem [ngbNavItem]="1">
                                             <ng-template ngbTabContent>
                                                 <p>I think that’s a responsibility that I have, to push possibilities,
                                                     to show people, this is the level that things could be at. So when
@@ -125,8 +126,8 @@
                                                     company that ends up being worth billions of dollars, because I got
                                                     the answers. I understand culture. I am the nucleus.</p>
                                             </ng-template>
-                                        </ngb-tab>
-                                        <ngb-tab title="Profile">
+                                        </li>
+                                        <li ngbNavItem [ngbNavItem]="2">
                                             <ng-template ngbTabContent>
                                                 <p> I will be the leader of a company that ends up being worth billions
                                                     of dollars, because I got the answers. I understand culture. I am
@@ -136,8 +137,8 @@
                                                     possibilities, to show people, this is the level that things could
                                                     be at. </p>
                                             </ng-template>
-                                        </ngb-tab>
-                                        <ngb-tab title="Messages">
+                                        </li>
+                                        <li ngbNavItem [ngbNavItem]="3">
                                             <ng-template ngbTabContent>
                                                 <p>I think that’s a responsibility that I have, to push possibilities,
                                                     to show people, this is the level that things could be at. So when
@@ -146,8 +147,8 @@
                                                     company that ends up being worth billions of dollars, because I got
                                                     the answers. I understand culture. I am the nucleus.</p>
                                             </ng-template>
-                                        </ngb-tab>
-                                        <ngb-tab title="Settings">
+                                        </li>
+                                        <li ngbNavItem [ngbNavItem]="4">
                                             <ng-template ngbTabContent>
                                                 <p>
                                                     "I will be the leader of a company that ends up being worth billions
@@ -157,8 +158,8 @@
                                                     be at."
                                                 </p>
                                             </ng-template>
-                                        </ngb-tab>
-                                    </ngb-tabset>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -183,37 +184,36 @@
                         </div>
                         <br />
                         <h4>Navigation Pills</h4>
-                        <ngb-tabset type="pills"
-                            class="nav nav-pills nav-pills-primary justify-content-start tab-space nav-pills-just-icons">
-                            <ngb-tab>
+                        <ul ngbNav #nav="ngbNav" class="nav-tabs">
+                            <li ngbNavItem [ngbNavItem]="1">
                                 <ng-template ngbTabTitle>
                                     <i class="far fa-gem"></i>
                                 </ng-template>
                                 <ng-template ngbTabContent>
                                 </ng-template>
-                            </ngb-tab>
-                            <ngb-tab>
+                            </li>
+                            <li ngbNavItem [ngbNavItem]="2">
                                 <ng-template ngbTabTitle>
                                     <i class="fa fa-thermometer-full"></i>
                                 </ng-template>
                                 <ng-template ngbTabContent>
                                 </ng-template>
-                            </ngb-tab>
-                            <ngb-tab>
+                            </li>
+                            <li ngbNavItem [ngbNavItem]="3">
                                 <ng-template ngbTabTitle>
                                     <i class="fa fa-suitcase"></i>
                                 </ng-template>
                                 <ng-template ngbTabContent>
                                 </ng-template>
-                            </ngb-tab>
-                            <ngb-tab [disabled]="true">
+                            </li>
+                            <li ngbNavItem [ngbNavItem]="3" disabled="true">
                                 <ng-template ngbTabTitle>
                                     <i class="fa fa-exclamation"></i>
                                 </ng-template>
                                 <ng-template ngbTabContent>
                                 </ng-template>
-                            </ngb-tab>
-                        </ngb-tabset>
+                            </li>
+                        </ul>
                     </div>
                     <div class="col-md-6">
                         <h4>Pagination</h4>
