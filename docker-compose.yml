@@ -4,7 +4,7 @@ services:
   relucis-front:
     container_name: relucis-front
     hostname: relucis-front
-    image: docker.io/brianwolf94/relucis-front:0.1.0
+    image: docker.io/brianwolf94/relucis-front:latest
     restart: always
     expose:
       - 8080

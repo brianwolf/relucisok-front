@@ -1,4 +1,4 @@
-VERSION := 0.1.0
+VERSION := latest
 
 build b:
 	docker build . -t docker.io/brianwolf94/relucis-front:$(VERSION)
