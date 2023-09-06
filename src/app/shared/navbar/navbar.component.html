@@ -1,13 +1,15 @@
-<nav class="navbar navbar-expand-lg fixed-top">
+<nav class="navbar navbar-expand-lg fixed-top bg-light">
   <div class="container">
+
     <div class="navbar-translate">
-      <img src="assets/img/logo-titulo.png" width="40%" height="20%">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
-        (click)="sidebarToggle()">
-        <i class="fa fa-bars"></i>
+      <img src="assets/img/logo-titulo.png" width="30%" height="15%">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-target="#navbar-primary"
+        aria-controls="#navbar-primary" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
+        <i class="fa fa-bars" style="color: rgb(0, 0, 0);"></i>
       </button>
     </div>
-    <div class="collapse navbar-collapse" id="example-navbar-primary">
+
+    <div class="collapse navbar-collapse" id="navbar-primary">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
           <a class="nav-link" href="#servicios">

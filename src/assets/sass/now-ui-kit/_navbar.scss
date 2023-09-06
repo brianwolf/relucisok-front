@@ -126,14 +126,14 @@
         }
     }
 
-    &.navbar-transparent {
-        background-color: $transparent-bg !important;
-        box-shadow: none;
-        color: $white-color;
-        padding-top: 20px;
-    }
+    // &.navbar-transparent {
+    //     background-color: $transparent-bg !important;
+    //     box-shadow: none;
+    //     color: $white-color;
+    //     padding-top: 20px;
+    // }
 
-    &.bg-white:not(.navbar-transparent) {
+    &.bg-white {
         a:not(.dropdown-item) {
             color: $default-color;
 
@@ -158,32 +158,4 @@
             border: 1px solid $default-color;
         }
     }
-}
-
-.bg-default {
-    background-color: $default-color !important;
-}
-
-.bg-primary {
-    background-color: $primary-color !important;
-}
-
-.bg-info {
-    background-color: $info-color !important;
-}
-
-.bg-success {
-    background-color: $success-color !important;
-}
-
-.bg-danger {
-    background-color: $danger-color !important;
-}
-
-.bg-warning {
-    background-color: $warning-color !important;
-}
-
-.bg-white {
-    background-color: $white-color !important;
 }

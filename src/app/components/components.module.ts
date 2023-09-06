@@ -8,6 +8,7 @@ import { NouisliderModule } from 'ng2-nouislider';
 
 import { ComponentsComponent } from './components.component';
 import { FotosComponent } from './fotos/fotos.component';
+import { HeaderComponent } from './header/header.component';
 import { RedesComponent } from './redes/redes.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 
@@ -24,7 +25,8 @@ import { ServiciosComponent } from './servicios/servicios.component';
         ComponentsComponent,
         ServiciosComponent,
         RedesComponent,
-        FotosComponent
+        FotosComponent,
+        HeaderComponent
     ],
     exports: [ComponentsComponent]
 })

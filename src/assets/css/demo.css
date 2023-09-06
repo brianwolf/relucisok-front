@@ -328,10 +328,6 @@
     transition: all .2s;
 }
 
-#images h4 {
-    margin-bottom: 30px;
-}
-
 #javascriptComponents {
     padding-bottom: 0;
 }
@@ -412,10 +408,6 @@
 
 .section-download .description {
     margin-bottom: 60px;
-}
-
-.section-download h4 {
-    margin-bottom: 25px;
 }
 
 .section-examples a {
