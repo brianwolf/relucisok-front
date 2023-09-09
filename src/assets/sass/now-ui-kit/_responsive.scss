@@ -12,7 +12,7 @@
 
         .nav-open & {
             .navbar-collapse {
-                @include transform-translate-x(0px);
+                @include transform-translate-x(100px);
             }
 
             .wrapper {
@@ -20,7 +20,7 @@
             }
 
             .navbar-translate {
-                @include transform-translate-x(-300px);
+                @include transform-translate-x(-200px);
             }
 
             &.menu-on-left {

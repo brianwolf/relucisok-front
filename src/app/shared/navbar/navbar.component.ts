@@ -1,5 +1,5 @@
 import { Component, OnInit, ElementRef } from '@angular/core';
-import { Location, LocationStrategy, PathLocationStrategy } from '@angular/common';
+import { Location, LocationStrategy, PathLocationStrategy, ViewportScroller } from '@angular/common';
 
 @Component({
     selector: 'app-navbar',
@@ -11,7 +11,7 @@ export class NavbarComponent implements OnInit {
     private toggleButton: any;
     private sidebarVisible: boolean;
 
-    constructor(public location: Location, private element: ElementRef) {
+    constructor(public location: Location, private element: ElementRef, private scroller: ViewportScroller) {
         this.sidebarVisible = false;
     }
 
@@ -44,5 +44,9 @@ export class NavbarComponent implements OnInit {
         } else {
             this.sidebarClose();
         }
+    }
+
+    scrollPageTo(who: string) {
+        this.scroller.scrollToAnchor(who)
     }
 }
