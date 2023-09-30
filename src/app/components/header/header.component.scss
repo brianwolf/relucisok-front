@@ -1,0 +1,32 @@
+h2 {
+    color: black;
+    // font-weight: bold;
+    font-family: "Lucida Handwriting Italic";
+}
+
+.page-header-image {
+    background-image: url('/assets/img/header2.jpg');
+}
+
+.page-header {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    .page-header-image {
+        background-image: url('/assets/img/header-phone2.jpg');
+    }
+}
+
+@font-face {
+    font-family: 'Lucida Handwriting Italic';
+    src: url('/assets/fonts/lucida-handwriting-italic.ttf');
+}

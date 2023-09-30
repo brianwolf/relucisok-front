@@ -6,91 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fotos.component.scss']
 })
 export class FotosComponent implements OnInit {
-  simpleSlider = 40;
-  doubleSlider = [20, 60];
-  state = true;
 
-  tagItems = ['Minimal', 'Light', 'New', 'Friends'];
-
-  dropdownList = [];
-  selectedItems = [];
-  dropdownSettings = {};
-
-  dropdownList1 = [];
-  selectedItems1 = [];
-  dropdownSettings1 = {};
-
-  focus;
-  focus1;
+  listPhotos: string[] = [
+    "assets/img/fotos/89c87d79-16b9-4f6d-ab2b-8bd3979ee11e.jpeg",
+    "assets/img/fotos/ffd2a535-8ff5-4d13-850f-77d9836b21cd.jpeg",
+    "assets/img/fotos/89c87d79-16b9-4f6d-ab2b-8bd3979ee11a.jpg",
+  ]
 
   constructor() { }
 
-  ngOnInit() {
-    this.dropdownList = [
-      { "id": 1, "itemName": "Roman" },
-      { "id": 2, "itemName": "Paris" },
-      { "id": 3, "itemName": "Bucharest" },
-      { "id": 4, "itemName": "Rome" },
-      { "id": 5, "itemName": "New York" },
-      { "id": 6, "itemName": "Miami" },
-      { "id": 7, "itemName": "Piatra Neamt" },
-      { "id": 8, "itemName": "Paris" },
-      { "id": 9, "itemName": "Bucharest" },
-      { "id": 10, "itemName": "Rome" },
-      { "id": 11, "itemName": "New York" },
-      { "id": 12, "itemName": "Miami" },
-      { "id": 13, "itemName": "Piatra Neamt" }
-    ];
-    this.selectedItems = [
-    ];
-    this.dropdownSettings = {
-      singleSelection: false,
-      text: "Multiple Select",
-      selectAllText: 'Select All',
-      unSelectAllText: 'UnSelect All',
-      enableSearchFilter: true,
-      classes: ""
-    };
-
-    this.dropdownList1 = [
-      { "id": 1, "itemName": "Roman" },
-      { "id": 2, "itemName": "Paris" },
-      { "id": 3, "itemName": "Bucharest" },
-      { "id": 4, "itemName": "Rome" },
-      { "id": 5, "itemName": "New York" },
-      { "id": 6, "itemName": "Miami" },
-      { "id": 7, "itemName": "Piatra Neamt" },
-      { "id": 8, "itemName": "Paris" },
-      { "id": 9, "itemName": "Bucharest" },
-      { "id": 10, "itemName": "Rome" },
-      { "id": 11, "itemName": "New York" },
-      { "id": 12, "itemName": "Miami" },
-      { "id": 13, "itemName": "Piatra Neamt" }
-    ];
-    this.selectedItems1 = [
-    ];
-    this.dropdownSettings1 = {
-      singleSelection: true,
-      text: "Single Select",
-      selectAllText: 'Select All',
-      unSelectAllText: 'UnSelect All',
-      enableSearchFilter: true,
-      classes: ""
-    };
-  }
-  onItemSelect(item: any) {
-    console.log(item);
-    console.log(this.selectedItems);
-  }
-  OnItemDeSelect(item: any) {
-    console.log(item);
-    console.log(this.selectedItems);
-  }
-  onSelectAll(items: any) {
-    console.log(items);
-  }
-  onDeSelectAll(items: any) {
-    console.log(items);
+  ngOnInit(): void {
   }
 
 }
