@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "now-ui-kit-angular": {
+    "relucisok-front": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -26,8 +26,7 @@
             ],
             "styles": [
               "src/styles.scss",
-              "src/assets/sass/now-ui-kit.scss",
-              "src/assets/css/demo.css"
+              "src/assets/sass/now-ui-kit.scss"
             ],
             "scripts": [
               "node_modules/rellax/rellax.min.js",
@@ -57,18 +56,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "now-ui-kit-angular:build"
+            "browserTarget": "relucisok-front:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "now-ui-kit-angular:build:production"
+              "browserTarget": "relucisok-front:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "now-ui-kit-angular:build"
+            "browserTarget": "relucisok-front:build"
           }
         },
         "test": {
@@ -102,7 +101,7 @@
         }
       }
     },
-    "now-ui-kit-angular-e2e": {
+    "relucisok-front-e2e": {
       "root": "e2e",
       "sourceRoot": "e2e",
       "projectType": "application",
@@ -111,7 +110,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "./protractor.conf.js",
-            "devServerTarget": "now-ui-kit-angular:serve"
+            "devServerTarget": "relucisok-front:serve"
           }
         },
         "lint": {

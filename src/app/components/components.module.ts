@@ -7,11 +7,11 @@ import { JwBootstrapSwitchNg2Module } from '@servoy/jw-bootstrap-switch-ng2';
 import { NouisliderModule } from 'ng2-nouislider';
 
 import { ComponentsComponent } from './components.component';
-import { EquipoComponent } from './equipo/equipo.component';
-import { FotosComponent } from './fotos/fotos.component';
+import { TeamComponent } from './team/team.component';
+import { PicturesComponent } from './pictures/pictures.component';
 import { HeaderComponent } from './header/header.component';
-import { RedesComponent } from './redes/redes.component';
-import { ServiciosComponent } from './servicios/servicios.component';
+import { NetworksComponent } from './networks/networks.component';
+import { ServicesComponent } from './services/services.component';
 
 @NgModule({
     imports: [
@@ -24,11 +24,11 @@ import { ServiciosComponent } from './servicios/servicios.component';
     ],
     declarations: [
         ComponentsComponent,
-        ServiciosComponent,
-        RedesComponent,
-        FotosComponent,
+        ServicesComponent,
+        NetworksComponent,
+        PicturesComponent,
         HeaderComponent,
-        EquipoComponent
+        TeamComponent
     ],
     exports: [ComponentsComponent]
 })

@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { JsonService } from 'app/services/jsonService';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+  selector: 'app-networks',
+  templateUrl: './networks.component.html',
+  styleUrls: ['./networks.component.scss']
 })
-export class HeaderComponent implements OnInit {
+export class NetworksComponent implements OnInit {
 
   data: any = {}
 
@@ -15,7 +15,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
     this.jsonService.getData()
       .subscribe(data => {
-        this.data = data.header;
+        this.data = data.networks;
       })
   }
 
