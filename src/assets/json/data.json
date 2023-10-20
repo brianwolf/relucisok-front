@@ -6,58 +6,75 @@
         {
             "title": "Microneedling",
             "description": "Estimula la capacidad de regeneración cutánea a través de múltiples micropunciones, desencadenando la generación natural de colágeno y elastina",
-            "img": "assets/img/servicios/microneedling.jpg"
+            "img": "assets/img/services/microneedling.jpg"
         },
         {
             "title": "Microdermoabrasión",
             "description": "Aplica unos granos diminutos que consiguen exfoliar y eliminar las células muertas de la piel",
-            "img": "assets/img/servicios/microdermoabrasion.png"
+            "img": "assets/img/services/microdermoabrasion.png"
         },
         {
             "title": "Tratamientos anti-age",
             "description": "Actúa de manera eficaz contra los signos de envejecimiento facial (envejecimiento biológico, cronológico o fotoenvejecimiento)",
-            "img": "assets/img/servicios/anti-age.jpg"
+            "img": "assets/img/services/anti-age.jpg"
         },
         {
             "title": "Tratamientos de hidratacion",
             "description": "Brinda ingredientes reparadores para la piel garantizando una gran relajación y hidratación corporal",
-            "img": "assets/img/servicios/hidratacion.jpg"
+            "img": "assets/img/services/hidratacion.jpg"
         },
         {
             "title": "Tratamientos despigmentante",
             "description": "Aclara la piel y elimina las manchas provocadas por el sol u otros factores agresores externos, como la luz azul, la contaminación, etc.",
-            "img": "assets/img/servicios/despigmentante.jpg"
+            "img": "assets/img/services/despigmentante.jpg"
         },
         {
             "title": "Tratamientos anti acné",
             "description": "Tratamiento tópico con peróxido de benzoilo, retinoides y antibióticos (clindamicina, tetraciclina y eritromicina base)",
-            "img": "assets/img/servicios/acne.jpg"
+            "img": "assets/img/services/acne.jpg"
         },
         {
             "title": "Peeling",
             "description": "Actúa directamente sobre la capa superficial de la piel, limpiándola en profundidad, aportándole elasticidad y atenuando las arrugas",
-            "img": "assets/img/servicios/peeling.png"
+            "img": "assets/img/services/peeling.png"
         },
         {
             "title": "Drenaje linfático",
             "description": "Masaje, suave y ligero, que se aplica sobre el sistema circulatorio y que moviliza los líquidos del organismo para favorecer la eliminación de las sustancias",
-            "img": "assets/img/servicios/linfatico.jpg"
+            "img": "assets/img/services/linfatico.jpg"
         }
     ],
     "pictures": [
-        "assets/img/fotos/89c87d79-16b9-4f6d-ab2b-8bd3979ee11e.jpeg",
-        "assets/img/fotos/ffd2a535-8ff5-4d13-850f-77d9836b21cd.jpeg",
-        "assets/img/fotos/89c87d79-16b9-4f6d-ab2b-8bd3979ee11a.jpg"
+        "assets/img/pictures/89c87d79-16b9-4f6d-ab2b-8bd3979ee11e.jpeg",
+        "assets/img/pictures/ffd2a535-8ff5-4d13-850f-77d9836b21cd.jpeg",
+        "assets/img/pictures/89c87d79-16b9-4f6d-ab2b-8bd3979ee11a.jpg"
     ],
     "team": [
         {
             "name": "Noelia Garcia",
             "speciality": "Cosmiatra",
-            "img": "assets/img/equipo/noe.jpg",
-            "color": "#6d5b98"
+            "img": "assets/img/team/noe.jpg",
+            "color": "#B40404"
         }
     ],
-    "networks": {
+    "networks": [
+        {
+            "name": "Whatsapp",
+            "link": "https://api.whatsapp.com/send?phone=541162427130",
+            "img": "assets/img/networks/whatsapp.jpeg"
+        },
+        {
+            "name": "Instagram",
+            "link": "https://www.instagram.com/re_lucisok",
+            "img": "assets/img/networks/instagram.jpg"
+        },
+        {
+            "name": "Maps",
+            "link": "https://www.google.com/maps/place/Arenales+970,+C1061+AAF,+Buenos+Aires",
+            "img": "assets/img/networks/maps.jpeg"
+        }
+    ],
+    "footer": {
         "map": "Arenales 970, CABA",
         "mapLink": "https://www.google.com/maps/place/Arenales+970,+C1061+AAF,+Buenos+Aires",
         "email": "noelia.m.garcia98@gmail.com",
