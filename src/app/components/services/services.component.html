@@ -1,14 +1,14 @@
-<div class="section" id="services">
+<div class="section" id="servicios">
     <div class="container">
         <h3 class="title text-center" style="font-size: 300%;">Servicios</h3>
-        <div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
 
+        <div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
             <div class="row">
                 <div class="col-lg-4" *ngFor="let service of data">
                     <div class="card">
-                        <img src={{service.img}} class="card-img-top" />
                         <div class="card-body">
                             <h5 class="card-title"><b>{{service.title}}</b></h5>
+                            <hr />
                             <p class="card-text">
                                 {{service.description}}
                             </p>
@@ -16,7 +16,7 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
+
 </div>

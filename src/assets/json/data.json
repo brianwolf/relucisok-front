@@ -5,55 +5,47 @@
     "services": [
         {
             "title": "Microneedling",
-            "description": "Estimula la capacidad de regeneración cutánea a través de múltiples micropunciones, desencadenando la generación natural de colágeno y elastina",
-            "img": "assets/img/services/microneedling.jpg"
+            "description": "Estimula la capacidad de regeneración cutánea a través de múltiples micropunciones, desencadenando la generación natural de colágeno y elastina"
         },
         {
             "title": "Microdermoabrasión",
-            "description": "Aplica unos granos diminutos que consiguen exfoliar y eliminar las células muertas de la piel",
-            "img": "assets/img/services/microdermoabrasion.png"
+            "description": "Aplica unos granos diminutos que consiguen exfoliar y eliminar las células muertas de la piel"
         },
         {
             "title": "Tratamientos anti-age",
-            "description": "Actúa de manera eficaz contra los signos de envejecimiento facial (envejecimiento biológico, cronológico o fotoenvejecimiento)",
-            "img": "assets/img/services/anti-age.jpg"
+            "description": "Actúa de manera eficaz contra los signos de envejecimiento facial (envejecimiento biológico, cronológico o fotoenvejecimiento)"
         },
         {
             "title": "Tratamientos de hidratacion",
-            "description": "Brinda ingredientes reparadores para la piel garantizando una gran relajación y hidratación corporal",
-            "img": "assets/img/services/hidratacion.jpg"
+            "description": "Brinda ingredientes reparadores para la piel garantizando una gran relajación y hidratación corporal"
         },
         {
             "title": "Tratamientos despigmentante",
-            "description": "Aclara la piel y elimina las manchas provocadas por el sol u otros factores agresores externos, como la luz azul, la contaminación, etc.",
-            "img": "assets/img/services/despigmentante.jpg"
+            "description": "Aclara la piel y elimina las manchas provocadas por el sol u otros factores agresores externos, como la luz azul, la contaminación, etc."
         },
         {
             "title": "Tratamientos anti acné",
-            "description": "Tratamiento tópico con peróxido de benzoilo, retinoides y antibióticos (clindamicina, tetraciclina y eritromicina base)",
-            "img": "assets/img/services/acne.jpg"
+            "description": "Tratamiento tópico con peróxido de benzoilo, retinoides y antibióticos (clindamicina, tetraciclina y eritromicina base)"
         },
         {
             "title": "Peeling",
-            "description": "Actúa directamente sobre la capa superficial de la piel, limpiándola en profundidad, aportándole elasticidad y atenuando las arrugas",
-            "img": "assets/img/services/peeling.png"
+            "description": "Actúa directamente sobre la capa superficial de la piel, limpiándola en profundidad, aportándole elasticidad y atenuando las arrugas"
         },
         {
             "title": "Drenaje linfático",
-            "description": "Masaje, suave y ligero, que se aplica sobre el sistema circulatorio y que moviliza los líquidos del organismo para favorecer la eliminación de las sustancias",
-            "img": "assets/img/services/linfatico.jpg"
+            "description": "Masaje, suave y ligero, que se aplica sobre el sistema circulatorio y que moviliza los líquidos del organismo para favorecer la eliminación de las sustancias"
         }
     ],
     "pictures": [
-        "assets/img/pictures/89c87d79-16b9-4f6d-ab2b-8bd3979ee11e.jpeg",
-        "assets/img/pictures/ffd2a535-8ff5-4d13-850f-77d9836b21cd.jpeg",
-        "assets/img/pictures/89c87d79-16b9-4f6d-ab2b-8bd3979ee11a.jpg"
+        "89c87d79-16b9-4f6d-ab2b-8bd3979ee11e.jpeg",
+        "ffd2a535-8ff5-4d13-850f-77d9836b21cd.jpeg",
+        "89c87d79-16b9-4f6d-ab2b-8bd3979ee11a.jpg"
     ],
     "team": [
         {
             "name": "Noelia Garcia",
             "speciality": "Cosmiatra",
-            "img": "assets/img/team/noe.jpg",
+            "img": "noe.jpg",
             "color": "#B40404"
         }
     ],
@@ -61,17 +53,17 @@
         {
             "name": "Whatsapp",
             "link": "https://api.whatsapp.com/send?phone=541162427130",
-            "img": "assets/img/networks/whatsapp.jpeg"
+            "img": "whatsapp.jpeg"
         },
         {
             "name": "Instagram",
             "link": "https://www.instagram.com/re_lucisok",
-            "img": "assets/img/networks/instagram.jpg"
+            "img": "instagram.jpg"
         },
         {
             "name": "Maps",
             "link": "https://www.google.com/maps/place/Arenales+970,+C1061+AAF,+Buenos+Aires",
-            "img": "assets/img/networks/maps.jpeg"
+            "img": "maps.jpeg"
         }
     ],
     "footer": {

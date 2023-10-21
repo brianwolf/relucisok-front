@@ -5,7 +5,7 @@
             <div class="carousel-inner">
                 <div [ngClass]="isFirst ? 'carousel-item active' : 'carousel-item'"
                     *ngFor="let path of data; let i=index; first as isFirst">
-                    <img src="{{path}}" class="d-block w-100 rounded">
+                    <img src="assets/img/pictures/{{path}}" class="d-block w-100 rounded">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselPhotos" data-bs-slide="prev">
