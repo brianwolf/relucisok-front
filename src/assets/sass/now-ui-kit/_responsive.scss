@@ -1,4 +1,10 @@
 @media screen and (max-width: 991px) {
+    
+    // color de la barra lateral
+    #navbar-primary {
+        background-color: #000000;
+    }
+
     .sidebar-collapse {
         @include navbar-collapse();
 
@@ -68,16 +74,6 @@
 
     .section-nucleo-icons .icons-container {
         margin-top: 65px;
-    }
-
-    .navbar-nav {
-        .nav-link {
-
-            i.fa,
-            i.now-ui-icons {
-                opacity: .5;
-            }
-        }
     }
 
     .section-images {

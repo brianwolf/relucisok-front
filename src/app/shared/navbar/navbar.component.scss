@@ -1,15 +1,16 @@
+.navbar {
+    background-color: #313131;
+}
+
 .nav-link {
     p {
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         font-size: 150%;
         font-weight: bold;
     }
 }
 
-.now-ui-icons {
-    color: rgb(0, 0, 0);
-}
-
-i {
-    color: rgb(0, 0, 0);
+.icons {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 }

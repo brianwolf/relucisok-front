@@ -126,29 +126,4 @@
         }
     }
 
-    &.bg-white {
-        a:not(.dropdown-item) {
-            color: $default-color;
-
-            &.disabled {
-                opacity: .5;
-                color: $default-color;
-            }
-        }
-
-        .button-bar {
-            background: $default-color;
-        }
-
-        .nav-item.active .nav-link:not(.btn),
-        .nav-item .nav-link:not(.btn):focus,
-        .nav-item .nav-link:not(.btn):hover,
-        .nav-item .nav-link:not(.btn):active {
-            background-color: $opacity-gray-3;
-        }
-
-        .logo-container {
-            border: 1px solid $default-color;
-        }
-    }
 }

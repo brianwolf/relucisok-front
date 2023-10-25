@@ -1,46 +1,44 @@
-<footer class="text-center text-lg-start bg-white text-muted" id="networks">
+<footer class="text-center text-lg-start text-muted footer-dark" id="networks">
 
-    <section class="">
-        <div class="container text-center text-md-start mt-5">
-            <div class="row mt-3">
+    <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
 
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                    <img src="assets/img/logo-titulo.png">
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <img src="assets/img/logo-titulo.png">
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h5 class="fw-bold mb-4 footer-dark-text">Contacto:</h5>
+
+                <div class="click-redes">
+                    <a href={{data.mapLink}}>
+                        <i class="fas fa-home me-3 text-secondary"></i>
+                        <span>{{data.map}}</span>
+                    </a>
                 </div>
-
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                    <h5 class="fw-bold mb-4">Contacto:</h5>
-
-                    <div class="click-redes">
-                        <a href={{data.mapLink}}>
-                            <i class="fas fa-home me-3 text-secondary"></i>
-                            <span>{{data.map}}</span>
-                        </a>
-                    </div>
-                    <div class="click-redes">
-                        <a href={{data.email}}>
-                            <i class="fas fa-envelope me-3 text-secondary"></i>
-                            <span>{{data.email}}</span>
-                        </a>
-                    </div>
-                    <div class="click-redes">
-                        <a href={{data.whatsappLink}}>
-                            <i class="fab fa-whatsapp me-3 text-secondary"></i>
-                            <span>{{data.whatsapp}}</span>
-                        </a>
-                    </div>
-                    <div class="click-redes">
-                        <a href={{data.instagramLink}}>
-                            <i class="fab fa-instagram me-3 text-secondary"></i>
-                            <span>{{data.instagram}}</span>
-                        </a>
-                    </div>
+                <div class="click-redes">
+                    <a href={{data.email}}>
+                        <i class="fas fa-envelope me-3 text-secondary"></i>
+                        <span>{{data.email}}</span>
+                    </a>
+                </div>
+                <div class="click-redes">
+                    <a href={{data.whatsappLink}}>
+                        <i class="fab fa-whatsapp me-3 text-secondary"></i>
+                        <span>{{data.whatsapp}}</span>
+                    </a>
+                </div>
+                <div class="click-redes">
+                    <a href={{data.instagramLink}}>
+                        <i class="fab fa-instagram me-3 text-secondary"></i>
+                        <span>{{data.instagram}}</span>
+                    </a>
                 </div>
             </div>
         </div>
-    </section>
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
-        © 2023 Copyright:
-        <a class="text-reset fw-bold" href="https://relucisok.com.ar/">relucisok.com.ar</a>
+    </div>
+    <div class="text-center p-4 footer-dark">
+        <p class="footer-dark-text">© 2023 Copyright: <a class="text-reset fw-bold footer-dark-text"
+                href="https://relucisok.com.ar/">relucisok.com.ar</a></p>
     </div>
 </footer>

@@ -24,3 +24,13 @@
     font-family: 'Lucida Handwriting Italic';
     src: url('/assets/fonts/lucida-handwriting-italic.ttf');
 }
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+:host {
+    display: block;
+    background-color: #ffffff00;
+    z-index: -100;
+}
