@@ -5,35 +5,43 @@
     "services": [
         {
             "title": "Microneedling",
-            "description": "Estimula la capacidad de regeneración cutánea a través de múltiples micropunciones, desencadenando la generación natural de colágeno y elastina"
+            "description": "Estimula la capacidad de regeneración cutánea a través de múltiples micropunciones, desencadenando la generación natural de colágeno y elastina",
+            "img": "microneedling.jpg"
         },
         {
             "title": "Microdermoabrasión",
-            "description": "Aplica unos granos diminutos que consiguen exfoliar y eliminar las células muertas de la piel"
+            "description": "Aplica unos granos diminutos que consiguen exfoliar y eliminar las células muertas de la piel",
+            "img": "microdermoabrasion.png"
         },
         {
             "title": "Tratamientos anti-age",
-            "description": "Actúa de manera eficaz contra los signos de envejecimiento facial (envejecimiento biológico, cronológico o fotoenvejecimiento)"
+            "description": "Actúa de manera eficaz contra los signos de envejecimiento facial (envejecimiento biológico, cronológico o fotoenvejecimiento)",
+            "img": "anti-age.jpg"
         },
         {
             "title": "Tratamientos de hidratacion",
-            "description": "Brinda ingredientes reparadores para la piel garantizando una gran relajación y hidratación corporal"
+            "description": "Brinda ingredientes reparadores para la piel garantizando una gran relajación y hidratación corporal",
+            "img": "hidratacion.jpg"
         },
         {
             "title": "Tratamientos despigmentante",
-            "description": "Aclara la piel y elimina las manchas provocadas por el sol u otros factores agresores externos, como la luz azul, la contaminación, etc."
+            "description": "Aclara la piel y elimina las manchas provocadas por el sol u otros factores agresores externos, como la luz azul, la contaminación, etc.",
+            "img": "despigmentante.jpg"
         },
         {
             "title": "Tratamientos anti acné",
-            "description": "Tratamiento tópico con peróxido de benzoilo, retinoides y antibióticos (clindamicina, tetraciclina y eritromicina base)"
+            "description": "Tratamiento tópico con peróxido de benzoilo, retinoides y antibióticos (clindamicina, tetraciclina y eritromicina base)",
+            "img": "acne.jpg"
         },
         {
             "title": "Peeling",
-            "description": "Actúa directamente sobre la capa superficial de la piel, limpiándola en profundidad, aportándole elasticidad y atenuando las arrugas"
+            "description": "Actúa directamente sobre la capa superficial de la piel, limpiándola en profundidad, aportándole elasticidad y atenuando las arrugas",
+            "img": "peeling.png"
         },
         {
             "title": "Drenaje linfático",
-            "description": "Masaje, suave y ligero, que se aplica sobre el sistema circulatorio y que moviliza los líquidos del organismo para favorecer la eliminación de las sustancias"
+            "description": "Masaje, suave y ligero, que se aplica sobre el sistema circulatorio y que moviliza los líquidos del organismo para favorecer la eliminación de las sustancias",
+            "img": "linfatico.jpg"
         }
     ],
     "pictures": [
